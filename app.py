@@ -10,7 +10,7 @@ from datetime import datetime
 # =============================
 # Alpha Vantage API Key
 # =============================
-API_KEY = "YOUR_ALPHA_VANTAGE_API_KEY"
+API_KEY = st.secrets["ALPHA_VANTAGE_API_KEY"]
 
 # =============================
 # Stock List with Logos
